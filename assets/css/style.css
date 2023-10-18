@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin:0;
+    box-sizing: border-box;
+        
+    }
+    .outTabHeader{
+        list-style: none;
+        background-color: black;
+        color: #fff;
+        display: flex;
+    }
+    
+    .outTabContent{
+        margin: 0 auto;
+    }
+    .outTabHeader li {
+        width: 30%;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        transition: all.4s ease ease-in-out;
+    }
+    .outTabHeader li:hover{
+        background-color: orange;
+    }
+    
+    .outTabHeader li.active{
+        background-color:rgba(255, 165, 0,0.7) ;
+    
+    }
+    .tabpanel{
+        display: none;
+    }
+    .tabpanel.active{
+        display: block;
+    };
+}
